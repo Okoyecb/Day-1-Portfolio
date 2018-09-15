@@ -33,7 +33,9 @@ h3{
 }
 
 img{
-    padding-left: 10%;
+    margin-left: 15%;
+    margin-top: 12%;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .social{
@@ -64,6 +66,13 @@ img{
 }
 .github{
     background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536944130/github_1_avfl2b.svg');
+    background-size:28px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.medium{
+    background-image:url('http://res.cloudinary.com/okoyecb/image/upload/v1537017134/medium-size_inbvsd.svg');
     background-size:28px;
     background-position:center;
     background-repeat:no-repeat;
