@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito';
+
+body{
+    background-color: #191919;
+    overflow-x: hidden;
+}
+
+.about{
+    font-size: 36px;
+    color: #CDD3D5;
+    padding-top: 2%;
+    margin-left: 5%;
+}
+
+hr {
+    background-color: #CDD3D5;
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 10px;
+    }
+
+.bio{
+    color: #CDD3D5;
+    font-size: 26px;
+    line-height: 41px;
+    text-align: left;
+}
+
+h3{
+    font-size: 36px;
+    color: #CDD3D5;
+}
+
+img{
+    padding-left: 10%;
+}
+
+.social{
+    width:auto;
+    height:auto;
+    float:left;
+    margin-bottom:75px;
+}
+.media{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    cursor:pointer;
+    opacity:.66;
+    cursor:pointer;
+    transition:all .5s ease-in-out;
+}
+.media:hover{
+    opacity:1;
+}
+.in{
+    background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536944003/linkedin_1_i5ltxg.svg');
+    background-size:28px;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+}
+.github{
+    background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536944130/github_1_avfl2b.svg');
+    background-size:28px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.twitter{
+    background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536941507/twitter-logo-silhouette_vb8k3p.svg');
+    background-size:28px;
+    background-position:center ;
+    background-repeat:no-repeat;
+}
+
+.instagram{
+    background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536941485/instagram_1_lwbn6j.svg');
+    background-size:28px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.dribble{
+    background-image:url('https://res.cloudinary.com/okoyecb/image/upload/v1536941477/dribble-logo_om1tjl.svg');
+    background-size:28px;
+    background-position:center ;
+    background-repeat:no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .bio{
+        text-align: center;
+        font-size: 28px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .social{
+      margin-left: 22%;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
